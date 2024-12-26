@@ -1,0 +1,35 @@
+.hero{
+    padding: 40px;
+    font-family: "Poppins", serif;
+}
+.hero-content{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.theme-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.first-common-para{
+    color: var(--main-blue);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto Mono", serif;;
+}
+.main-heading{
+    color: #ebeaef;
+    font-size: 100px;
+    font-weight: 700;
+}   
+.second-common-para{
+    color: var(--main-white);
+    font-size: 20px;
+    font-weight: 300;
+}
+.job-role{
+    font-weight: 500;
+    color: var(--main-blue);
+}

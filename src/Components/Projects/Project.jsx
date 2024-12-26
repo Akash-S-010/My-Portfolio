@@ -1,6 +1,6 @@
 import React from 'react'
-import "./Product.css"
-function Product() {
+import "./Project.css"
+function Project() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function Product() {
   )
 }
 
-export default Product
+export default Project
