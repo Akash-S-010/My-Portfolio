@@ -1,35 +1,85 @@
-.hero{
-    padding: 40px;
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
     font-family: "Poppins", serif;
 }
-.hero-content{
+
+.hero-content {
     position: absolute;
-    top : 50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.theme-container{
+
+.theme-container {
     display: flex;
     justify-content: flex-end;
 }
-.first-common-para{
-    color: var(--main-blue);
-    font-size: 14px;
+
+.first-common-para {
+    color: var(--main-color);
+    font-size: 1rem;
     font-weight: 400;
-    font-family: "Roboto Mono", serif;;
+    font-family: "Roboto Mono", serif;
+    ;
 }
-.main-heading{
-    color: #ebeaef;
-    font-size: 100px;
+
+.main-heading {
+    color: var(--main-heading);
+    font-size: 7rem;
     font-weight: 700;
-}   
-.second-common-para{
-    color: var(--main-white);
-    font-size: 20px;
+}
+
+.second-common-para {
+    color: var(--main-heading);
+    font-size: 1.3rem;
     font-weight: 300;
 }
-.job-role{
+
+.job-role {
     font-weight: 500;
-    color: var(--main-blue);
+    color: var(--main-color);
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.resume {
+    font-size: 1.5rem;
+    color: var(--main-heading);
+    transition: .2s ease-in-out;
+}
+
+i {
+    margin: 0 .8rem;
+    font-size: 1.5rem;
+    color: var(--main-heading);
+    transition: .2s ease-in-out;
+}
+i:hover {
+    color: var(--main-color);
+}
+
+.resume::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background-color: var(--main-color);
+    transition:.3s;
+}
+
+.resume:hover::after {
+    width: 100%;
+    color: var(--main-color);
+}
+.resume:hover {
+    color: var(--main-color);
 }
