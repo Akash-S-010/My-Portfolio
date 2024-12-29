@@ -35,7 +35,6 @@ export default function Particle() {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log("Particles Loaded:", container);
   };
 
   return (
@@ -50,10 +49,10 @@ export default function Particle() {
           options={{
             particles: {
               number: {
-                value: 90,
+                value: 120,
                 density: {
                   enable: true,
-                  value_area: 900,
+                  value_area: 600,
                 },
               },
               color: {
@@ -94,7 +93,7 @@ export default function Particle() {
               },
               modes: {
                 bubble: {
-                  distance: 500,
+                  distance: 350,
                   size: 5,
                   duration: 0.3,
                   opacity: 0.9,

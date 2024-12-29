@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import Button from "./Buttons/Button";
 import Particle from "./Particle";
+import Typewriter from "./Typewriter";
 function Hero() {
   return (
     
@@ -14,7 +15,9 @@ function Hero() {
         <p className="first-common-para">Hello! my name is</p>
         <h1 className="main-heading">AKASH S</h1>
         <p className="second-common-para">
-          I am a <span className="job-role"> &nbsp;&nbsp;MERN Stack Developer</span>
+          I am a <span className="job-role">
+            <Typewriter/>
+          </span>
         </p>
       </div>
       <div className="hero-bottom">

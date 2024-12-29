@@ -7,7 +7,7 @@
 }
 
 :root.light-mode {
-    --main-color: #ff6153;
+    --main-color: #ff5243;
     --main-bg: #ebeaef;
     --main-heading: #161b1e;
 }
@@ -35,7 +35,7 @@ html {
 }
 
 body::-webkit-scrollbar {
-    width: 0.26rem;
+    width: 0.27rem;
 }
 
 body::-webkit-scrollbar-track {
