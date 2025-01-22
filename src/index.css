@@ -1,3 +1,7 @@
+:root{
+  ---primary-color: #46c8f8;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,6 +19,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #46c8f8;
+  background: var(---primary-color);
   border-radius: 2rem;
 }
+

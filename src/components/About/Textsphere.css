@@ -1,0 +1,12 @@
+.text-sphere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.tagcloud {
+    font-family: Poppins, sans-serif;
+    color: #46c8f8;
+    font-weight: 700;
+}
