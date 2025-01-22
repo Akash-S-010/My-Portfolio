@@ -1,0 +1,14 @@
+.underline-anime::after {
+    content: "";
+    width: 0;
+    height: 2.1px;
+    margin: auto;
+    display: block;
+    background-color: #46c8f8;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.underline-anime:hover::after {
+    width: 100%;
+}
