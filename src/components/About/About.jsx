@@ -5,14 +5,14 @@ const About = () => {
   return (
     <div className=" w-full about h-screen bg-bg-color flex gap-14 justify-center items-center px-40">
       <div className="left-about w-1/2">
-        <div className="content flex items-center gap-8 mb-16">
+        <div className="content items-center gap-8 mb-16">
           <div className="heading">
             <p className="text-primary-color font-mono ">01. WHO AM I</p>
             <h1 className="text-cream-white font-main text-4xl font-semibold mt-3">
               About Me
             </h1>
           </div>
-          <div className="line w-60 h-1 rounded-xl bg-line-color"></div>
+          <div className="line mt-3 w-60 h-1 rounded-xl bg-line-color"></div>
         </div>
         <div className="about-para text-cream-white font-medium text-xl">
           <p className=" leading-7">
@@ -30,11 +30,11 @@ const About = () => {
           <p className="font-libre text-sm mt-12 italic text-primary-color">
             "The only way to do great work is to love what you do."
           </p>
-          <p className="text-sm font-normal mt-1">~ Steve Jobs</p>
+          <p className="text-sm font-normal mt-1 text-gray-300">~ Steve Jobs</p>
         </div>
       </div>
       <div className="right-about w-1/2">
-      <TextSphere />
+        <TextSphere />
       </div>
     </div>
   );
