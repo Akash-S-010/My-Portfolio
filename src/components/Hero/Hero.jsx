@@ -34,7 +34,7 @@ const Hero = () => {
         </span>
       </div>
 
-      <div className="bottom-div w-full flex justify-between px-12 absolute bottom-8">
+      <div className="bottom-div w-full flex justify-between px-20 absolute bottom-10">
         <div className="resume">
           <a
             href={resume}
@@ -46,7 +46,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="social-icons flex space-x-4">
+        <div className="social-icons flex space-x-5">
           <a href="https://github.com/Akash-S-010">
             <FaGithub className="text-2xl cursor-pointer text-cream-white transition hover:text-primary-color" />
           </a>
