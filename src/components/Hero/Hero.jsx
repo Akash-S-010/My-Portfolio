@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="text-lg text-primary-color font-mono font-">
           Hi! my name is
         </p>
-        <h1 className="text-8xl font-bold font-main my-8">AKASH S</h1>
+        <h1 className="text-6xl lg:text-8xl font-bold font-main my-8">AKASH S</h1>
         <span className="text-2xl mt-4 font-sans">
           I am a{" "}
           <span className="text-primary-color font-semibold inline-block">
@@ -34,7 +34,7 @@ const Hero = () => {
         </span>
       </div>
 
-      <div className="bottom-div w-full flex justify-between px-20 absolute bottom-10">
+      <div className="bottom-div w-full flex justify-between px-10 bottom-5 lg:px-20 absolute lg:bottom-10">
         <div className="resume">
           <a
             href={resume}
@@ -46,7 +46,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="social-icons flex space-x-5">
+        <div className="social-icons flex space-x-2 lg:space-x-5">
           <a href="https://github.com/Akash-S-010">
             <FaGithub className="text-2xl cursor-pointer text-cream-white transition hover:text-primary-color" />
           </a>

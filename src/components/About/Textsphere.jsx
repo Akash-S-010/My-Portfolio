@@ -23,8 +23,12 @@ const TextSphere = () => {
       "VS Code",
       "Firebase",
     ];
+
+    // Determine the radius based on screen size
+    const radius = window.innerWidth <= 550 ? 190 : 260;
+
     const options = {
-      radius: 260, // Sphere radius
+      radius, // Dynamically set radius
       maxSpeed: "fast", // Speed options: slow, normal, fast
       initSpeed: "normal", // Initial speed
       direction: 135, // Rotation direction
@@ -37,7 +41,7 @@ const TextSphere = () => {
       const tagCloudElement = document.querySelector(".tagcloud");
       if (tagCloudElement) tagCloudElement.innerHTML = "";
     };
-  }, []);
+  }, []); // Empty dependency array ensures this effect runs only once after mount
 
   return (
     <div className="text-sphere">
