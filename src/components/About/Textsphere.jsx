@@ -40,7 +40,8 @@ const TextSphere = () => {
     return () => {
       const tagCloudElement = document.querySelector(".tagcloud");
       if (tagCloudElement) tagCloudElement.innerHTML = "";
-    };
+      window.innerWidth <= 550 ? tagCloudElement.style.fontSize = "10px" : tagCloudElement.style.fontSize = "17px";
+   };
   }, []); // Empty dependency array ensures this effect runs only once after mount
 
   return (

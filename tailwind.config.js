@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'primary-color': '#46c8f8',
-        'cream-white':'#ebeaef'
+        'cream-white':'#ebeaef',
+        'dark-primary-color': '#021821',
     },
     backgroundColor: {
       'bg-color': '#161b1e',
