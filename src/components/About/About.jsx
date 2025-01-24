@@ -3,7 +3,7 @@ import TextSphere from "./Textsphere";
 
 const About = () => {
   return (
-    <div className="w-full h-screen bg-bg-color px-4 sm:px-0 items-center grid sm:grid-cols-1 sm:px-2 md:grid-cols-1 md:px-5 lg:grid-cols-2 lg:px-10 xl:grid-cols-2 xl:px-40 pt-10">
+    <div className="w-full h-screen bg-bg-color px-4 items-center grid sm:grid-cols-1 sm:px-2 md:grid-cols-1 md:px-5 lg:grid-cols-2 lg:px-10 xl:grid-cols-2 xl:px-40 pt-10">
       <div className="left-about text-center lg:text-left max-w-full">
         <div className="content items-center gap-8 mb-8 lg:mb-16">
           <div className="heading">
