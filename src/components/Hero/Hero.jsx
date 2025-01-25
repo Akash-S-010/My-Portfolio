@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <div className="hero w-full h-screen bg-bg-color text-cream-white flex flex-col justify-center items-center relative">
+    <div className="hero w-full h-screen text-cream-white bg-bg-color flex flex-col justify-center items-center relative">
       <div className="main-content text-center">
         <p className="text-lg text-primary-color font-mono font-">
           Hi! my name is

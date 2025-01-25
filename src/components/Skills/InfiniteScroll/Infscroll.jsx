@@ -140,7 +140,7 @@ const Infscroll = () => {
             <h1 className="text-xl font-semibold mt-3 text-blue-200 ">
               {item.title}
             </h1>
-            <p className="mt-2 leading-1 text-dark-primary-color">{item.desc}</p>
+            <p className="mt-2 leading-1">{item.desc}</p>
           </div>
         ))}
       </div>
