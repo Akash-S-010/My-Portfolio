@@ -12,7 +12,7 @@ export default {
     },
     backgroundColor: {
       'bg-color': '#161b1e',
-      "line-color": '#1b2125'
+      "line-color": '#1b2125',
     },
     fontFamily: {
       main: ['Poppins', 'sans-serif'],
@@ -23,3 +23,4 @@ export default {
   plugins: [],
 }
 }
+
